@@ -1,0 +1,230 @@
+Event_ID,Category,Sub_Category,Event_Name,Venue,City,Date,Time,Duration_Minutes,Description
+1,Dance,Contemporary,Ritu Changlani - The Blue Hour,"Upasana Amphitheatre, Gujarat University",Ahmedabad,14-11-2025,19:15,N/A,A contemporary dance performance
+2,Theater,Philosophical Show - Comedy / Fantasy/ Drama,Prarthana Kudtarkar- The Wine Intervention,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,14-11-2025,19:15,N/A,A philosophical show with comedy fantasy and drama
+3,Music,Sufi Folk,Mohan Sagar - The Harmonium Band,"Manch GU, Gujarat University",Ahmedabad,14-11-2025,19:15,N/A,Sufi folk music by The Harmonium Band
+4,Music,Sufi Fusion,Munaf Luhar -The Bulleshah Project,"Upasana Amphitheatre, Gujarat University",Ahmedabad,14-11-2025,21:30,N/A,A sufi fusion music project
+5,Music,Classical fusion,Mousumi Datta - Aatman,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,14-11-2025,21:30,N/A,A classical fusion music performance
+6,Dance,Contemporary,Kunaal Sangtani - Goonj,"Manch GU, Gujarat University",Ahmedabad,14-11-2025,21:30,N/A,A contemporary dance performance
+7,Theater,Socio-Psychological Period Drama,Girish Solanki - Hargauri Shashtri,"Manch ATIRA, ATIRA",Ahmedabad,14-11-2025,19:15,N/A,A socio-psychological period drama
+8,Music,Gujarati Folk,Shobhit Desai - Tarannum thi Naadbramha sudhi,"Manch ATIRA, ATIRA",Ahmedabad,14-11-2025,21:30,N/A,A performance of Gujarati folk music
+9,Dance,Contemporary with elements of Jazz,Rayan Bhambhani - The Mole,"Shreerangam, Shreyas Foundation",Ahmedabad,14-11-2025,19:15,N/A,Contemporary dance with elements of Jazz
+10,Theater,Drama + Music + Dance,Aalap Tripathi - Life of Lalu,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,14-11-2025,19:15,N/A,A performance combining drama music and dance
+11,Music,Percussion,Dipesh Varma - Folk Yatra,"Shreerangam, Shreyas Foundation",Ahmedabad,14-11-2025,21:30,N/A,A percussion performance of folk music
+12,Dance,Contemporary,Pritesh Mehta - The Box,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,14-11-2025,21:30,N/A,A contemporary dance piece
+13,Music,DJ Dhol,Siddharth Bhayani - Beatroot,"Platform GU, Gujarat University",Ahmedabad,14-11-2025,20:30,N/A,A DJ Dhol music performance
+14,Dance,Odissi,Junahi Rattan - Anga Raaga,"Platform ATIRA, ATIRA",Ahmedabad,14-11-2025,20:30,N/A,An Odissi dance performance
+15,Theater,"Physical Satire, Folk-Fantasy, Absurd Comedy",Hemank Soni - Maaye ni meri akh lag gayi,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,14-11-2025,20:30,N/A,A physical satire and folk-fantasy absurd comedy
+16,Theater,"Puppetry, Musical, Non-fictional",Kalpesh Samel - 4 feet ka Sapna,"Upasana Amphitheatre, Gujarat University",Ahmedabad,15-11-2025,19:15,N/A,A non-fictional puppetry musical
+17,Dance,Contemporary Kathak,Shamik Chanda - The Rainbow Flower,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,15-11-2025,19:15,N/A,A contemporary Kathak dance
+18,Theater,"Dark Humour, Social Satire, Digital Theatre & Psycho Drama",Dhrunad - Like Share & Subscribe!!,"Manch GU, Gujarat University",Ahmedabad,15-11-2025,19:15,N/A,A dark humour and social satire psycho drama
+19,Music,Sufi Fusion,Munaf Luhar -The Bulleshah Project,"Upasana Amphitheatre, Gujarat University",Ahmedabad,15-11-2025,21:30,N/A,A sufi fusion music project
+20,Theater,Philosophical Show - Comedy / Fantasy/ Drama,Prarthana Kudtarkar - The Wine Intervention,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,15-11-2025,21:30,N/A,A philosophical show with comedy fantasy and drama
+21,Dance,Contemporary,Kunaal Sangtani - Goonj,"Manch GU, Gujarat University",Ahmedabad,15-11-2025,21:30,N/A,A contemporary dance performance
+22,Dance,Contemporary Kathak,Ameera Patankar - Q?-urban-l!,"Manch ATIRA, ATIRA",Ahmedabad,15-11-2025,19:15,N/A,A contemporary Kathak dance
+23,Music,Street Theatre,INGA - Therukoothu,"Manch ATIRA, ATIRA",Ahmedabad,15-11-2025,21:30,N/A,A street theatre music performance
+24,Theater,"Experimental Theatre, Musical, Storytelling, Cultural Preservation",Hafeez Khan - Teekaram - The last folk star!,"Shreerangam, Shreyas Foundation",Ahmedabad,15-11-2025,19:15,N/A,An experimental musical storytelling theatre piece
+25,Music,Classical Fusion,Atri Kotal - Survana,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,15-11-2025,19:15,N/A,A classical fusion music performance
+26,Music,Percussion,Dipesh Varma - Folk Yatra,"Shreerangam, Shreyas Foundation",Ahmedabad,15-11-2025,21:30,N/A,A percussion performance of folk music
+27,Dance,Contemporary,Pritesh Mehta - The Box,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,15-11-2025,21:30,N/A,A contemporary dance piece
+28,Music,Rajasthani Folk,JKM Band Folk - The Bhapang Project,"Platform GU, Gujarat University",Ahmedabad,15-11-2025,20:30,N/A,A Rajasthani folk music performance
+29,Dance,Odissi,Junahi Rattan - Anga Raaga,"Platform ATIRA, ATIRA",Ahmedabad,15-11-2025,20:30,N/A,An Odissi dance performance
+30,Theater,"Physical Satire, Folk-Fantasy, Absurd Comedy",Hemank Soni - Maaye ni meri akh lag gayi,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,15-11-2025,20:30,N/A,A physical satire and folk-fantasy absurd comedy
+31,Theater,"Puppetry, Musical, Non-fictional",Kalpesh Samel - 4 feet ka Sapna,"Upasana Amphitheatre, Gujarat University",Ahmedabad,16-11-2025,19:15,N/A,A non-fictional puppetry musical
+32,Music,Music,Mousumi Datta - Aatman,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,16-11-2025,19:15,N/A,A music performance
+33,Theater,Drama,Dhrumit Chauhan - Shakespeare Maharo Jamai,"Manch GU, Gujarat University",Ahmedabad,16-11-2025,19:15,N/A,A drama theatre performance
+34,Dance,Contemporary,Ritu Changlani - The Blue Hour,"Upasana Amphitheatre, Gujarat University",Ahmedabad,16-11-2025,21:30,N/A,A contemporary dance performance
+35,Theater,Philosophical Show - Comedy / Fantasy/ Drama,Prarthana Kudtarkar - The Wine Intervention,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,16-11-2025,21:30,N/A,A philosophical show with comedy fantasy and drama
+36,Dance,Contemporary,Kunaal Sangtani - Goonj,"Manch GU, Gujarat University",Ahmedabad,16-11-2025,21:30,N/A,A contemporary dance performance
+37,Music,Street Theatre,INGA - Therukoothu,"Manch ATIRA, ATIRA",Ahmedabad,16-11-2025,19:15,N/A,A street theatre music performance
+38,Dance,Contemporary Kathak,Ameera Patankar - Q?-urban-l!,"Manch ATIRA, ATIRA",Ahmedabad,16-11-2025,21:30,N/A,A contemporary Kathak dance
+39,Theater,"Experimental Theatre, Musical, Storytelling, Cultural Preservation",Hafeez Khan - Teekaram - The last folk star!,"Shreerangam, Shreyas Foundation",Ahmedabad,16-11-2025,19:15,N/A,An experimental musical storytelling theatre piece
+40,Dance,Contemporary with elements of Jazz,Rayan Bhambhani - The Mole,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,16-11-2025,19:15,N/A,Contemporary dance with elements of Jazz
+41,Music,Percussion,Dipesh Varma - Folk Yatra,"Shreerangam, Shreyas Foundation",Ahmedabad,16-11-2025,21:30,N/A,A percussion performance of folk music
+42,Dance,Contemporary,Pritesh Mehta - The Box,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,16-11-2025,21:30,N/A,A contemporary dance piece
+43,Theater,"Physical Satire, Folk-Fantasy, Absurd Comedy",Hemank Soni - Maaye ni meri akh lag gayi,"Platform GU, Gujarat University",Ahmedabad,16-11-2025,20:30,N/A,A physical satire and folk-fantasy absurd comedy
+44,Music,Rajasthani Folk,JKM Band Folk - The Bhapang Project,"Platform ATIRA, ATIRA",Ahmedabad,16-11-2025,20:30,N/A,A Rajasthani folk music performance
+45,Dance,Bharatnatyam & Kathak,Rutuja & Swarashri - Bol Sakhi,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,16-11-2025,20:30,N/A,A Bharatnatyam and Kathak dance performance
+46,Theater,"Puppetry, Musical, Non-fictional",Kalpesh Samel - 4 feet ka Sapna,"Upasana Amphitheatre, Gujarat University",Ahmedabad,18-11-2025,19:15,N/A,A non-fictional puppetry musical
+47,Music,Light classical Fusion,Tarjani Hirani Collective by Unfold Entertainment,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,18-11-2025,19:15,N/A,A light classical fusion music performance
+48,Dance,Folk,Tishya Khare & Jessiya George - Mook,"Manch GU, Gujarat University",Ahmedabad,18-11-2025,19:15,N/A,A folk dance performance
+49,Music,Light Classical Fusion,Swarit Kelkar - Soor Taal Chakra,"Upasana Amphitheatre, Gujarat University",Ahmedabad,18-11-2025,21:30,N/A,A light classical fusion music performance
+50,Dance,Contemporary Kathak,Shamik Chanda - The Rainbow Flower,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,18-11-2025,21:30,N/A,A contemporary Kathak dance
+51,Music,Sufi Folk,Mohan Sagar - The Harmonium Band,"Manch GU, Gujarat University",Ahmedabad,18-11-2025,21:30,N/A,Sufi folk music by The Harmonium Band
+52,Theater,Movement Theatre,Pravin Kannanur - Thresh/Hold,"Manch ATIRA, ATIRA",Ahmedabad,18-11-2025,19:15,N/A,A movement theatre performance
+53,Theater,Movement Theatre,Pravin Kannanur - Thresh/Hold,"Manch ATIRA, ATIRA",Ahmedabad,18-11-2025,21:30,N/A,A movement theatre performance
+54,Theater,"Experimental Theatre, Musical, Storytelling, Cultural Preservation",Hafeez Khan - Teekaram - The last folk star!,"Shreerangam, Shreyas Foundation",Ahmedabad,18-11-2025,19:15,N/A,An experimental musical storytelling theatre piece
+55,Dance,Hip Hop & Krump,Ritesh & Kunal - Bounce - The Genesis of Everything,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,18-11-2025,19:15,N/A,A Hip Hop and Krump dance performance
+56,Dance,Contemporary Kathak,Manasee Gado - Jaya Angi Mothepan Taya Yatana Kathin,"Shreerangam, Shreyas Foundation",Ahmedabad,18-11-2025,21:30,N/A,A contemporary Kathak dance
+57,Music,Classical Fusion,Atri Kotal - Survana,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,18-11-2025,21:30,N/A,A classical fusion music performance
+58,Dance,Odissi,Junahi Rattan - Anga Raaga,"Platform GU, Gujarat University",Ahmedabad,18-11-2025,20:30,N/A,An Odissi dance performance
+59,Music,DJ Dhol,Siddharth Bhayani - Beatroot,"Platform ATIRA, ATIRA",Ahmedabad,18-11-2025,20:30,N/A,A DJ Dhol music performance
+60,Theater,"Physical Theatre, Experimental, Movement Based",Runal Kolkankar - Unwritten,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,18-11-2025,20:30,N/A,A physical experimental and movement based theatre piece
+61,Theater,Sci-fi Play,Akshay Dave - Rasānt,"Upasana Amphitheatre, Gujarat University",Ahmedabad,19-11-2025,19:15,N/A,A sci-fi play theatre performance
+62,Dance,Contemporary Kathak,Shamik Chanda - The Rainbow Flower,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,19-11-2025,19:15,N/A,A contemporary Kathak dance
+63,Music,Light Music,Pratidhwani Choir - Choral Kavita,"Manch GU, Gujarat University",Ahmedabad,19-11-2025,19:15,N/A,A light music choir performance
+64,Dance,Bharatnaytam & Kathak,Nilava & Nikita - Bichitra - A tale of a flower,"Upasana Amphitheatre, Gujarat University",Ahmedabad,19-11-2025,21:30,N/A,A Bharatnatyam and Kathak dance performance
+65,Music,Light classical Fusion,Tarjani Hirani Collective by Unfold Entertainment,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,19-11-2025,21:30,N/A,A light classical fusion music performance
+66,Theater,"Dark Humour, Social Satire, Digital Theatre & Psycho Drama",Dhrunad - Like Share & Subscribe!!,"Manch GU, Gujarat University",Ahmedabad,19-11-2025,21:30,N/A,A dark humour and social satire psycho drama
+67,Theater,Movement Theatre,Pravin Kannanur - Thresh/Hold,"Manch ATIRA, ATIRA",Ahmedabad,19-11-2025,19:15,N/A,A movement theatre performance
+68,Dance,Contemporary Kathak,Ameera Patankar - Q!-urban-l?,"Manch ATIRA, ATIRA",Ahmedabad,19-11-2025,21:30,N/A,A contemporary Kathak dance
+69,Theater,"Musical, Physical, Comic, Romantic",Vaishakh Rathodd - Aa To Prem No Jadoo Chhe,"Shreerangam, Shreyas Foundation",Ahmedabad,19-11-2025,19:15,N/A,A musical physical comic and romantic theatre piece
+70,Dance,Bharatnatyam with Visual mapping,Swati Athmanathan - Varan-Asi – Varnan,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,19-11-2025,19:15,N/A,A Bharatnatyam with visual mapping dance performance
+71,Dance,Contemporary Kathak,Manasee Gado -Jaya Angi Mothepan Taya Yatana Kathin,"Shreerangam, Shreyas Foundation",Ahmedabad,19-11-2025,21:30,N/A,A contemporary Kathak dance
+72,Music,Classical Fusion,Atri Kotal - Survana,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,19-11-2025,21:30,N/A,A classical fusion music performance
+73,Dance,Bharatnatyam & Kathak,Rutuja & Swarashri - Bol Sakhi,"Platform GU, Gujarat University",Ahmedabad,19-11-2025,20:30,N/A,A Bharatnatyam and Kathak dance performance
+74,Theater,"Physical Theatre, Experimental, Movement Based",Runal Kolkankar - Unwritten,"Platform ATIRA, ATIRA",Ahmedabad,19-11-2025,20:30,N/A,A physical experimental and movement based theatre piece
+75,Music,Rajasthani Folk,JKM Band Folk - The Bhapang Project,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,19-11-2025,20:30,N/A,A Rajasthani folk music performance
+76,Theater,Traditional Theatre,Sooraj Nambiar - Cilappathikaram,"Upasana Amphitheatre, Gujarat University",Ahmedabad,20-11-2025,19:15,N/A,A traditional theatre performance
+77,Theater,Physical Theatre,Hardik Shah - Samsara,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,20-11-2025,19:15,N/A,A physical theatre performance
+78,Dance,Folk,Tishya Khare & Jessiya George - Mook,"Manch GU, Gujarat University",Ahmedabad,20-11-2025,19:15,N/A,A folk dance performance
+79,Dance,Bharatnaytam & Kathak,Nilava & Nikita - Bichitra - A tale of a flower,"Upasana Amphitheatre, Gujarat University",Ahmedabad,20-11-2025,21:30,N/A,A Bharatnatyam and Kathak dance performance
+80,Music,Light Music,Pratidhwani Choir - Choral Kavita,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,20-11-2025,21:30,N/A,A light music choir performance
+81,Dance,Bharatnatyam,Divya Nayar - Pinnal - Tales of a sisterhood,"Manch GU, Gujarat University",Ahmedabad,20-11-2025,21:30,N/A,A Bharatnatyam dance performance
+82,Music,Street Theatre,INGA - Therukoothu,"Manch ATIRA, ATIRA",Ahmedabad,20-11-2025,19:15,N/A,A street theatre music performance
+83,Theater,Drama,Dhrumit Chauhan - Shakespeare Maharo Jamai,"Manch ATIRA, ATIRA",Ahmedabad,20-11-2025,21:30,N/A,A drama theatre performance
+84,Dance,Contemporary Kathak,Manasee Gado - Jaya Angi Mothepan Taya Yatana Kathin,"Shreerangam, Shreyas Foundation",Ahmedabad,20-11-2025,19:15,N/A,A contemporary Kathak dance
+85,Theater,Drama + Dance,Aalap Tripathi - Life of Lalu,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,20-11-2025,19:15,N/A,A performance combining drama and dance
+86,Dance,Contemporary,Aric & Shifu - Maya,"Shreerangam, Shreyas Foundation",Ahmedabad,20-11-2025,21:30,N/A,A contemporary dance performance
+87,Dance,Bharatnatyam with Visual mapping,Swati Athmanathan - Varan-Asi – Varnan,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,20-11-2025,21:30,N/A,A Bharatnatyam with visual mapping dance performance
+88,Theater,"Physical Theatre, Experimental, Movement Based",Runal Kolkankar - Unwritten,"Platform GU, Gujarat University",Ahmedabad,20-11-2025,20:30,N/A,A physical experimental and movement based theatre piece
+89,Music,Tamil Folk,Thara Local Pasanga - War Mode,"Platform ATIRA, ATIRA",Ahmedabad,20-11-2025,20:30,N/A,A Tamil folk music performance
+90,Dance,Bharatnatyam & Kathak,Rutuja & Swarashri - Bol Sakhi,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,20-11-2025,20:30,N/A,A Bharatnatyam and Kathak dance performance
+91,Theater,Traditional Theatre,Sooraj Nambiar - Cilappathikaram,"Upasana Amphitheatre, Gujarat University",Ahmedabad,21-11-2025,19:15,N/A,A traditional theatre performance
+92,Music,Indian Classical,Dr Atindra Sarvadikar - Raag Mudra,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,21-11-2025,19:15,N/A,An Indian classical music performance
+93,Dance,Folk,Tishya Khare & Jessiya George - Mook,"Manch GU, Gujarat University",Ahmedabad,21-11-2025,19:15,N/A,A folk dance performance
+94,Dance,Bharatnaytam & Kathak,Nilava & Nikita - Bichitra - A tale of a flower,"Upasana Amphitheatre, Gujarat University",Ahmedabad,21-11-2025,21:30,N/A,A Bharatnatyam and Kathak dance performance
+95,Theater,Physical Theatre,Hardik Shah - Samsara,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,21-11-2025,21:30,N/A,A physical theatre performance
+96,Music,Rajasthani Folk,Anavar Khan - Kanudo,"Manch GU, Gujarat University",Ahmedabad,21-11-2025,21:30,N/A,A Rajasthani folk music performance
+97,Dance,Bharatnatyam,Tanya Saxena - Prayer Circle,"Manch ATIRA, ATIRA",Ahmedabad,21-11-2025,19:15,N/A,A Bharatnatyam dance performance
+98,Music,Pop Rock,SameerBenny Collectives - Ik Aadat Si,"Manch ATIRA, ATIRA",Ahmedabad,21-11-2025,21:30,N/A,A pop rock music performance
+99,Theater,Children's Play,Fletcher Aur Zenobia - Gillo Repertory Theatre,"Banyan Tree, Shreyas Foundation",Ahmedabad,21-11-2025,17:00,N/A,A children's play
+100,Music,Percussion,Hiren Chate - Circle of Naad,"Shreerangam, Shreyas Foundation",Ahmedabad,21-11-2025,19:15,N/A,A percussion music performance
+101,Dance,Bharatnatyam with Visual mapping,Swati Athmanathan - Varan-Asi – Varnan,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,21-11-2025,19:15,N/A,A Bharatnatyam with visual mapping dance performance
+102,Dance,Contemporary,Aric & Shifu - Maya,"Shreerangam, Shreyas Foundation",Ahmedabad,21-11-2025,21:30,N/A,A contemporary dance performance
+103,Music,Ghazal,Suhaavi Kalsi - Women of Ghazal,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,21-11-2025,21:30,N/A,A Ghazal music performance
+104,Music,Maharashtrian Folk,Vishwa Lokkala Manch Lokkala Darshan,"Platform GU, Gujarat University",Ahmedabad,21-11-2025,20:30,N/A,A Maharashtrian folk music performance
+105,Dance,Bharatnatyam,Anuja Madhekar - ManahChakshu: Seeing Beyond What is Seen,"Platform ATIRA, ATIRA",Ahmedabad,21-11-2025,20:30,N/A,A Bharatnatyam dance performance
+106,Music,BeatBox,Shrey Kapadia - The Beatbox Crew,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,21-11-2025,20:30,N/A,A beatbox music performance
+107,Theater,Traditional Theatre,Sooraj Nambiar - Cilappathikaram,"Upasana Amphitheatre, Gujarat University",Ahmedabad,22-11-2025,19:15,N/A,A traditional theatre performance
+108,Music,Light Music,Pratidhwani Choir - Choral Kavita,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,22-11-2025,19:15,N/A,A light music choir performance
+109,Dance,Bharatnatyam,Divya Nayar - Pinnal - Tales of a sisterhood,"Manch GU, Gujarat University",Ahmedabad,22-11-2025,19:15,N/A,A Bharatnatyam dance performance
+110,Music,Sufi Fusion,Munaf Luhar -The Bulleshah Project,"Upasana Amphitheatre, Gujarat University",Ahmedabad,22-11-2025,21:30,N/A,A sufi fusion music project
+111,Theater,Physical Theatre,Hardik Shah - Samsara,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,22-11-2025,21:30,N/A,A physical theatre performance
+112,Music,Rajasthani Folk,Anavar Khan - Kanudo,"Manch GU, Gujarat University",Ahmedabad,22-11-2025,21:30,N/A,A Rajasthani folk music performance
+113,Music,Pop Rock,SameerBenny Collectives - Ik Aadat Si,"Manch ATIRA, ATIRA",Ahmedabad,22-11-2025,19:15,N/A,A pop rock music performance
+114,Dance,Bharatnatyam,Tanya Saxena - Prayer Circle,"Manch ATIRA, ATIRA",Ahmedabad,22-11-2025,21:30,N/A,A Bharatnatyam dance performance
+115,Theater,Children's Play,Fletcher Aur Zenobia - Gillo Repertory Theatre,"Banyan Tree, Shreyas Foundation",Ahmedabad,22-11-2025,17:00,N/A,A children's play
+116,Dance,Contemporary,Aric & Shifu - Maya,"Shreerangam, Shreyas Foundation",Ahmedabad,22-11-2025,19:15,N/A,A contemporary dance performance
+117,Theater,Satirical Absurdist Drama with Elements of Dark Comedy and Social Realism,Gaurang Raval - M.E,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,22-11-2025,19:15,N/A,A satirical absurdist drama with dark comedy and social realism
+118,Music,Percussion,Hiren Chate - Circle of Naad,"Shreerangam, Shreyas Foundation",Ahmedabad,22-11-2025,21:30,N/A,A percussion music performance
+119,Dance,Contemporary with elements of Jazz,Rayan Bhambhani - The Mole,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,22-11-2025,21:30,N/A,Contemporary dance with elements of Jazz
+120,Music,Maharashtrian Folk,Vishwa Lokkala Manch - Lokkala Darshan,"Platform GU, Gujarat University",Ahmedabad,22-11-2025,20:30,N/A,A Maharashtrian folk music performance
+121,Music,Tamil Folk,Thara Local Pasanga - War Mode,"Platform ATIRA, ATIRA",Ahmedabad,22-11-2025,20:30,N/A,A Tamil folk music performance
+122,Dance,Bharatnatyam,Anuja Madhekar - ManahChakshu: Seeing Beyond What is Seen,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,22-11-2025,20:30,N/A,A Bharatnatyam dance performance
+123,Theater,Sci-fi Play,Akshay Dave - Rasānt,"Upasana Amphitheatre, Gujarat University",Ahmedabad,23-11-2025,19:15,N/A,A sci-fi play theatre performance
+124,Music,Indian Classical,Dr Atindra Sarvadikar - Raag Mudra,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,23-11-2025,19:15,N/A,An Indian classical music performance
+125,Dance,Hip Hop & Krump,Ritesh & Kunal - Bounce - The Genesis of Everything,"Manch GU, Gujarat University",Ahmedabad,23-11-2025,19:15,N/A,A Hip Hop and Krump dance performance
+126,Music,Rajasthani Folk,Firoz Khan - The Kartaal Project,"Upasana Amphitheatre, Gujarat University",Ahmedabad,23-11-2025,21:30,N/A,A Rajasthani folk music performance
+127,Theater,Drama,Sharanya Deyy - My Imaginary Homeland,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,23-11-2025,21:30,N/A,A drama theatre performance
+128,Dance,Bharatnatyam,Divya Nayar - Pinnal - Tales of a sisterhood,"Manch GU, Gujarat University",Ahmedabad,23-11-2025,21:30,N/A,A Bharatnatyam dance performance
+129,Theater,"Drama, Satire, Magical Realism",Aagaz Theatre - Goonj ka Ghar,"Manch ATIRA, ATIRA",Ahmedabad,23-11-2025,19:15,N/A,A drama satire and magical realism theatre piece
+130,Music,Pop Rock,SameerBenny Collectives - Ik Aadat Si,"Manch ATIRA, ATIRA",Ahmedabad,23-11-2025,21:30,N/A,A pop rock music performance
+131,Theater,Children's Play,Fletcher Aur Zenobia - Gillo Repertory Theatre,"Banyan Tree, Shreyas Foundation",Ahmedabad,23-11-2025,17:00,N/A,A children's play
+132,Theater,"Musical, Physical, Comic, Romantic",Vaishakh Rathodd - Aa To Prem No Jadoo Chhe,"Shreerangam, Shreyas Foundation",Ahmedabad,23-11-2025,19:15,N/A,A musical physical comic and romantic theatre piece
+133,Music,Indian Classical,Pranshu and Shounok - Brahmand,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,23-11-2025,19:15,N/A,An Indian classical music performance
+134,Music,Percussion,Hiren Chate - Circle of Naad,"Shreerangam, Shreyas Foundation",Ahmedabad,23-11-2025,21:30,N/A,A percussion music performance
+135,Music,Ghazal,Suhaavi Kalsi - Women of Ghazal,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,23-11-2025,21:30,N/A,A Ghazal music performance
+136,Music,Tamil Folk,Thara Local Pasanga - War Mode,"Platform GU, Gujarat University",Ahmedabad,23-11-2025,20:30,N/A,A Tamil folk music performance
+137,Music,BeatBox,Shrey Kapadia - The Beatbox Crew,"Platform ATIRA, ATIRA",Ahmedabad,23-11-2025,20:30,N/A,A beatbox music performance
+138,Dance,Bharatnatyam,Anuja Madhekar - ManahChakshu: Seeing Beyond What is Seen,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,23-11-2025,20:30,N/A,A Bharatnatyam dance performance
+139,Music,Rajasthani Folk,Firoz Khan - The Kartaal Project,"Upasana Amphitheatre, Gujarat University",Ahmedabad,25-11-2025,19:15,N/A,A Rajasthani folk music performance
+140,Dance,Kuchipudi,Rashmi & Vidya- Yadā: Saraswathi and Lakshmi laughed together!,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,25-11-2025,19:15,N/A,A Kuchipudi dance performance
+141,Music,Indian Classical,Pranshu and Shounok - Brahmand,"Manch GU, Gujarat University",Ahmedabad,25-11-2025,19:15,N/A,An Indian classical music performance
+142,Music,Gujarati Folk,Kartik Dodiya - Rang Meghani,"Upasana Amphitheatre, Gujarat University",Ahmedabad,25-11-2025,21:30,N/A,A Gujarati folk music performance
+143,Theater,Drama,Sharanya Deyy - My Imaginary Homeland,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,25-11-2025,21:30,N/A,A drama theatre performance
+144,Music,Rajasthani Folk,Anavar Khan - Kanudo,"Manch GU, Gujarat University",Ahmedabad,25-11-2025,21:30,N/A,A Rajasthani folk music performance
+145,Theater,"Drama, Satire, Magical Realism",Aagaz Theatre - Goonj ka Ghar,"Manch ATIRA, ATIRA",Ahmedabad,25-11-2025,19:15,N/A,A drama satire and magical realism theatre piece
+146,Dance,Bharatnatyam,Tanya Saxena - Prayer Circle,"Manch ATIRA, ATIRA",Ahmedabad,25-11-2025,21:30,N/A,A Bharatnatyam dance performance
+147,Dance,Free style & Contemporary,Sarthak Dubey - Left Hand of God,"Shreerangam, Shreyas Foundation",Ahmedabad,25-11-2025,19:15,N/A,A free style and contemporary dance performance
+148,Theater,Satirical Absurdist Drama with Elements of Dark Comedy and Social Realism,Gaurang Raval - M.E,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,25-11-2025,19:15,N/A,A satirical absurdist drama with dark comedy and social realism
+149,Music,Hip Hop,Krantinaari - Sound of Women | Kumaoni Edition,"Shreerangam, Shreyas Foundation",Ahmedabad,25-11-2025,21:30,N/A,A Hip Hop music performance
+150,Dance,Pure Bharatnatyam,Pavitra Bhat - Shiva Tattva,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,25-11-2025,21:30,N/A,A pure Bharatnatyam dance performance
+151,Music,BeatBox,Shrey Kapadia - The Beatbox Crew,"Platform GU, Gujarat University",Ahmedabad,25-11-2025,20:30,N/A,A beatbox music performance
+152,Theater,Physical Theatre,Jalam Theatre Company- Last Laugh In No Man's Land,"Platform ATIRA, ATIRA",Ahmedabad,25-11-2025,20:30,N/A,A physical theatre performance
+153,Music,Maharashtrian Folk,Vishwa Lokkala Manch - Lokkala Darshan,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,25-11-2025,20:30,N/A,A Maharashtrian folk music performance
+154,Dance,Contemporary,Ritu Changlani - The Blue Hour,"Upasana Amphitheatre, Gujarat University",Ahmedabad,26-11-2025,19:15,N/A,A contemporary dance performance
+155,Theater,Drama,Sharanya Deyy - My Imaginary Homeland,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,26-11-2025,19:15,N/A,A drama theatre performance
+156,Music,Folk Fusion,Parvindar Singh - A Musical Journey of Sound & Soul,"Manch GU, Gujarat University",Ahmedabad,26-11-2025,19:15,N/A,A folk fusion music performance
+157,Theater,Sci-fi Play,Akshay Dave - Rasānt,"Upasana Amphitheatre, Gujarat University",Ahmedabad,26-11-2025,21:30,N/A,A sci-fi play theatre performance
+158,Music,Indian Classical,Dr Atindra Sarvadikar - Raag Mudra,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,26-11-2025,21:30,N/A,An Indian classical music performance
+159,Dance,Rajasthani folk & Contemporary Kathak,Anushka Chandak - Baisa's Podcast,"Manch GU, Gujarat University",Ahmedabad,26-11-2025,21:30,N/A,A Rajasthani folk and contemporary Kathak dance
+160,Theater,"Drama, Satire, Magical Realism",Aagaz Theatre - Goonj ka Ghar,"Manch ATIRA, ATIRA",Ahmedabad,26-11-2025,19:15,N/A,A drama satire and magical realism theatre piece
+161,Music,Folk Fusion,Chiragdeep Ghosh Collective - Fakirnama - Tales of a Modern Fakir,"Manch ATIRA, ATIRA",Ahmedabad,26-11-2025,21:30,N/A,A folk fusion music performance
+162,Dance,Pure Bharatnatyam,Pavitra Bhat - Shiva Tattva,"Shreerangam, Shreyas Foundation",Ahmedabad,26-11-2025,19:15,N/A,A pure Bharatnatyam dance performance
+163,Music,Ghazal,Suhaavi Kalsi - Women of Ghazal,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,26-11-2025,19:15,N/A,A Ghazal music performance
+164,Music,Pop Rock,Gujarat Garage - The Shankaracharya Project,"Shreerangam, Shreyas Foundation",Ahmedabad,26-11-2025,21:30,N/A,A pop rock music project
+165,Dance,Mohiniattam with AI Art,Divya Warier - Art of War: When art remembers what war forgot!,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,26-11-2025,21:30,N/A,A Mohiniattam with AI art dance performance
+166,Music,Hip Hop Gujarati,Kaal Music - Hip Hopion Daayro,"Platform GU, Gujarat University",Ahmedabad,26-11-2025,20:30,N/A,A Gujarati Hip Hop music performance
+167,Theater,Physical Theatre,Jalam Theatre Company - Last Laugh In No Man's Land,"Platform ATIRA, ATIRA",Ahmedabad,26-11-2025,20:30,N/A,A physical theatre performance
+168,Music,Chattisgarh Folk,Lokgatha Bharthari - Raja Bharthari ki Bairagya Gatha,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,26-11-2025,20:30,N/A,A Chattisgarh folk music performance
+169,Dance,Rajasthani folk & Contemporary Kathak,Anushka Chandak - Baisa's Podcast,"Upasana Amphitheatre, Gujarat University",Ahmedabad,27-11-2025,19:15,N/A,A Rajasthani folk and contemporary Kathak dance
+170,Music,Indian Classical,Namrata Dave - Odissi Music: The Sound That Speaks,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,27-11-2025,19:15,N/A,An Indian classical Odissi music performance
+171,Theater,"Dark Humour, Social Satire, Digital Theatre & Psycho Drama",Dhrunad - Like  Share & Subscribe!!,"Manch GU, Gujarat University",Ahmedabad,27-11-2025,19:15,N/A,A dark humour and social satire psycho drama
+172,Music,Rajasthani Folk,Firoz Khan - The Kartaal Project,"Upasana Amphitheatre, Gujarat University",Ahmedabad,27-11-2025,21:30,N/A,A Rajasthani folk music performance
+173,Dance,Kuchipudi,Rashmi & Vidya - Yadā -Saraswathi and Lakshmi laughed together,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,27-11-2025,21:30,N/A,A Kuchipudi dance performance
+174,Theater,Drama,Dhrumit Chauhan - Shakespeare Maharo Jamai,"Manch GU, Gujarat University",Ahmedabad,27-11-2025,21:30,N/A,A drama theatre performance
+175,Dance,Free style & Contemporary,Sarthak Dubey - Left Hand of God,"Manch ATIRA, ATIRA",Ahmedabad,27-11-2025,19:15,N/A,A free style and contemporary dance performance
+176,Theater,Socio-Psychological Period Drama,Girish Solanki - Hargauri Shashtri,"Manch ATIRA, ATIRA",Ahmedabad,27-11-2025,21:30,N/A,A socio-psychological period drama
+177,Music,Pop Rock,Gujarat Garage - The Shankaracharya Project,"Shreerangam, Shreyas Foundation",Ahmedabad,27-11-2025,19:15,N/A,A pop rock music project
+178,Dance,Mohiniattam with AI Art,Divya Warier - Art of War: When art remembers what war forgot!,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,27-11-2025,19:15,N/A,A Mohiniattam with AI art dance performance
+179,Music,Hip Hop,Krantinaari - Sound of Women | Kumaoni Edition,"Shreerangam, Shreyas Foundation",Ahmedabad,27-11-2025,21:30,N/A,A Hip Hop music performance
+180,Dance,Contemporary Bharatnatyam,Aneesha Grover - Rebel Ranis,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,27-11-2025,21:30,N/A,A contemporary Bharatnatyam dance performance
+181,Dance,Contemporary,Pooja Radhakrishnan - Murmuration,"Platform GU, Gujarat University",Ahmedabad,27-11-2025,20:30,N/A,A contemporary dance performance
+182,Theater,Physical Theatre,Jalam Theatre Company - Last Laugh In No Man's Land,"Platform ATIRA, ATIRA",Ahmedabad,27-11-2025,20:30,N/A,A physical theatre performance
+183,Music,Hip Hop Gujarati,Kaal Music - Hip Hopion Daayro,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,27-11-2025,20:30,N/A,A Gujarati Hip Hop music performance
+184,Theater,"Devised physical theatre, ensemble work",Abinaya - Thee,"Upasana Amphitheatre, Gujarat University",Ahmedabad,28-11-2025,19:15,N/A,A devised physical theatre ensemble work
+185,Music,Indian Classical,Namrata Dave - Odissi Music: The Sound That Speaks,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,28-11-2025,19:15,N/A,An Indian classical Odissi music performance
+186,Dance,Pure Bharatnatyam,Pavitra Bhat - Shiva Tattva,"Manch GU, Gujarat University",Ahmedabad,28-11-2025,19:15,N/A,A pure Bharatnatyam dance performance
+187,Music,Light Classical Fusion,Swarit Kelkar - Soor Taal Chakra,"Upasana Amphitheatre, Gujarat University",Ahmedabad,28-11-2025,21:30,N/A,A light classical fusion music performance
+188,Dance,Kuchipudi,Rashmi & Vidya -Yadā -Saraswathi and Lakshmi laughed together,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,28-11-2025,21:30,N/A,A Kuchipudi dance performance
+189,Music,Folk Fusion,Parvindar Singh - A Musical Journey of Sound & Soul,"Manch GU, Gujarat University",Ahmedabad,28-11-2025,21:30,N/A,A folk fusion music performance
+190,Theater,Socio-Psychological Period Drama,Girish Solanki - Hargauri Shastri,"Manch ATIRA, ATIRA",Ahmedabad,28-11-2025,19:15,N/A,A socio-psychological period drama
+191,Music,Gujarati Folk,Kartik Dodiya - Rang Meghani,"Manch ATIRA, ATIRA",Ahmedabad,28-11-2025,21:30,N/A,A Gujarati folk music performance
+192,Music,Gujarati Folk,Shobhit Desai - Tarannum thi Naadbramha sudhi,"Shreerangam, Shreyas Foundation",Ahmedabad,28-11-2025,19:15,N/A,A Gujarati folk music performance
+193,Dance,Mohiniattam with AI Art,Divya Warier - Art of War: When art remembers what war forgot!,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,28-11-2025,19:15,N/A,A Mohiniattam with AI art dance performance
+194,Music,Folk Fusion,Chiragdeep Ghosh Collective - Fakirnama - Tales of a Modern Fakir,"Shreerangam, Shreyas Foundation",Ahmedabad,28-11-2025,21:30,N/A,A folk fusion music performance
+195,Theater,Satirical Absurdist Drama with Elements of Dark Comedy and Social Realism,Gaurang Raval - M.E,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,28-11-2025,21:30,N/A,A satirical absurdist drama with dark comedy and social realism
+196,Music,Hip Hop Gujarati,Kaal Music - Hip Hopion Daayro,"Platform GU, Gujarat University",Ahmedabad,28-11-2025,20:30,N/A,A Gujarati Hip Hop music performance
+197,Music,Chattisgarh Folk,Lokgatha Bharthari - Raja Bharthari ki Bairagya Gatha,"Platform ATIRA, ATIRA",Ahmedabad,28-11-2025,20:30,N/A,A Chattisgarh folk music performance
+198,Theater,Dastangoi,Sikandar Khan - Angareywali ki Dastaan,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,28-11-2025,20:30,N/A,A Dastangoi theatre performance
+199,Dance,Rajasthani folk & Contemporary,Anushka Chandak - Baisa's Podcast,"Upasana Amphitheatre, Gujarat University",Ahmedabad,29-11-2025,19:15,N/A,A Rajasthani folk and contemporary dance
+200,Music,Indian Classical,Namrata Dave - Odissi Music: The Sound That Speaks,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,29-11-2025,19:15,N/A,An Indian classical Odissi music performance
+201,Dance,Free style & Contemporary,Sarthak Dubey - Left Hand of God,"Manch GU, Gujarat University",Ahmedabad,29-11-2025,19:15,N/A,A free style and contemporary dance performance
+202,Theater,"Devised physical theatre, ensemble work",Abinaya - Thee,"Upasana Amphitheatre, Gujarat University",Ahmedabad,29-11-2025,21:30,N/A,A devised physical theatre ensemble work
+203,Theater,Childrens play,Huseini Dawawala - Angoor Khatte Hai !!,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,29-11-2025,21:30,N/A,A childrens play
+204,Music,Folk Fusion,Parvindar Singh - A Musical Journey of Sound & Soul,"Manch GU, Gujarat University",Ahmedabad,29-11-2025,21:30,N/A,A folk fusion music performance
+205,Theater,Testimonial Theatre,QTP - Standing on the Indus,"Manch ATIRA, ATIRA",Ahmedabad,29-11-2025,19:15,N/A,A testimonial theatre performance
+206,Theater,Testimonial Theatre,QTP - Standing on the Indus,"Manch ATIRA, ATIRA",Ahmedabad,29-11-2025,21:30,N/A,A testimonial theatre performance
+207,Music,Hip Hop,Krantinaari - Sound of Women | Kumaoni Edition,"Shreerangam, Shreyas Foundation",Ahmedabad,29-11-2025,19:15,N/A,A Hip Hop music performance
+208,Dance,Contemporary Bharatnatyam,Aneesha Grover - Rebel Ranis,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,29-11-2025,19:15,N/A,A contemporary Bharatnatyam dance performance
+209,Theater,Drama + Music + Dance,Aalap Tripathi - Life of Lalu,"Shreerangam, Shreyas Foundation",Ahmedabad,29-11-2025,21:30,N/A,A performance combining drama music and dance
+210,Music,Ghazal,Shruti Sargam - Dastan-e-Ghazal : A journey through Shayari and Sheher,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,29-11-2025,21:30,N/A,A Ghazal music performance
+211,Music,Chattisgarh Folk,Lokgatha Bharthari - Raja Bharthari ki Bairagya Gatha,"Platform GU, Gujarat University",Ahmedabad,29-11-2025,20:30,N/A,A Chattisgarh folk music performance
+212,Dance,Contemporary,Pooja Radhakrishnan - Murmuration,"Platform ATIRA, ATIRA",Ahmedabad,29-11-2025,20:30,N/A,A contemporary dance performance
+213,Theater,Dastangoi,Sikandar Khan - Angareywali ki Dastaan,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,29-11-2025,20:30,N/A,A Dastangoi theatre performance
+214,Theater,Childrens play,Huseini Dawawala - Angoor Khatte Hai !!,"Upasana Amphitheatre, Gujarat University",Ahmedabad,30-11-2025,17:00,N/A,A childrens play
+215,Theater,"Devised physical theatre, ensemble work",Abinaya - Thee,"Upasana Amphitheatre, Gujarat University",Ahmedabad,30-11-2025,19:15,N/A,A devised physical theatre ensemble work
+216,Theater,Childrens play,Huseini Dawawala - Angoor Khatte Hai !!,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,30-11-2025,19:15,N/A,A childrens play
+217,Music,Ghazal,Shruti Sargam - Dastan-e-Ghazal - A journey through Shayari and Sheher,"Manch GU, Gujarat University",Ahmedabad,30-11-2025,19:15,N/A,A Ghazal music performance
+218,Music,Light Classical Fusion,Swarit Kelkar - Soor Taal Chakra,"Upasana Amphitheatre, Gujarat University",Ahmedabad,30-11-2025,21:30,N/A,A light classical fusion music performance
+219,Music,Indian Classical,Pranshu & Shounok - Brahmand,"Shyama Prasad Mukherjee Auditorium, Gujarat University",Ahmedabad,30-11-2025,21:30,N/A,An Indian classical music performance
+220,Dance,Hip Hop & Krump,Ritesh & Kunal - Bounce - The Genesis of Everything,"Manch GU, Gujarat University",Ahmedabad,30-11-2025,21:30,N/A,A Hip Hop and Krump dance performance
+221,Theater,Testimonial Theatre,QTP - Standing on the Indus,"Manch ATIRA, ATIRA",Ahmedabad,30-11-2025,19:15,N/A,A testimonial theatre performance
+222,Music,Gujarati Folk,Kartik Dodiya - Rang Meghani,"Manch ATIRA, ATIRA",Ahmedabad,30-11-2025,21:30,N/A,A Gujarati folk music performance
+223,Dance,Contemporary Bharatnatyam,Aneesha Grover - Rebel Ranis,"Shreerangam, Shreyas Foundation",Ahmedabad,30-11-2025,19:15,N/A,A contemporary Bharatnatyam dance performance
+224,Music,Folk Fusion,Chiragdeep Ghosh Collective - Fakirnama - Tales of a Modern Fakir,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,30-11-2025,19:15,N/A,A folk fusion music performance
+225,Music,Pop Rock,Gujarat Garage - The Shankaracharya Project,"Shreerangam, Shreyas Foundation",Ahmedabad,30-11-2025,21:30,N/A,A pop rock music project
+226,Theater,"Musical, Physical, Comic, Romantic",Vaishakh Rathodd - Aa To Prem No Jadoo Chhe,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,30-11-2025,21:30,N/A,A musical physical comic and romantic theatre piece
+227,Theater,Dastangoi,Sikandar Khan - Angareywali ki Dastaan,"Platform GU, Gujarat University",Ahmedabad,30-11-2025,20:30,N/A,A Dastangoi theatre performance
+228,Dance,Contemporary,Pooja Radhakrishnan - Murmuration,"Platform ATIRA, ATIRA",Ahmedabad,30-11-2025,20:30,N/A,A contemporary dance performance
+229,Music,DJ Dhol,Siddharth Bhayani - Beatroot,"Bajrang Maidan, Shreyas Foundation",Ahmedabad,30-11-2025,20:30,N/A,A DJ Dhol music performance
