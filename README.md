@@ -1,271 +1,245 @@
-# 🎭 Mauj Planner - Cultural Events Organizer
+# 🎭 Mauj Planner
 
-A beautiful, modern personal planner web application for organizing and managing cultural festival events. Built with Next.js, React, and shadcn UI components.
+An intelligent event planning web application for the Abhivyakti Cultural Festival, enabling visitors to maximize their festival experience by discovering events, avoiding schedule conflicts, and building personalized itineraries.
 
-![Mauj Planner](https://img.shields.io/badge/Mauj%20Planner-v1.0-amber?style=flat-square)
-![Next.js](https://img.shields.io/badge/Next.js-16.0-black?style=flat-square)
-![React](https://img.shields.io/badge/React-19-blue?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-
-## ✨ Features
-
-### 📋 Core Features
-- **Event Browsing**: Browse all cultural events with detailed information
-- **Smart Filtering**: Filter by category (Dance, Theatre, Music), venue, date, and artist
-- **My Schedule**: Create and manage your personal event schedule
-- **Combo Finder**: Discover days where you can attend multiple events (intelligent scheduling)
-- **Advanced Statistics**: Visualize event distribution and planning insights
-- **Export to CSV**: Download your schedule for offline reference
-
-### 🎯 Advanced Features
-- **Combo Day Detection**: Automatically finds event combinations on the same day
-- **Travel Time Estimation**: Considers venue proximity when suggesting combos
-- **Real-time Search**: Search for events by name, artist, or category
-- **Wishlist Management**: Add/remove events from your personal schedule with one click
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **Dark Mode by Default**: Eye-friendly dark theme enabled by default
-
-### 📊 Statistics & Insights
-- Total events overview
-- Events by category breakdown
-- Events per venue
-- Busiest days indicator
-- Artist count tracking
-- Selection status tracking
-
-## 🎨 User Interface
-
-### Modern, Minimalist Design
-- **Dark Theme**: Sleek black background with slate accents
-- **Accent Colors**: Amber highlights for selections and interactions
-- **Category Colors**:
-  - 🟣 Dance: Purple accents
-  - 🟠 Theatre: Orange accents
-  - 🔵 Music: Blue accents
-
-### Responsive Layout
-- **Desktop**: Side-by-side layout with filters on the left
-- **Mobile**: Collapsible sidebar with hamburger menu
-- **Tablet**: Optimized grid layout
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ or later
-- npm or yarn package manager
-
-### Installation
-
-1. **Clone the repository**
-```bash
-cd mauj-planner
-```
-
-2. **Install dependencies**
-```bash
-npm install
-```
-
-3. **Start the development server**
-```bash
-npm run dev
-```
-
-4. **Open in browser**
-Navigate to `http://localhost:3000`
-
-### Build for Production
-
-```bash
-npm run build
-npm start
-```
-
-## 📁 Project Structure
-
-```
-mauj-planner/
-├── app/
-│   ├── layout.tsx          # Root layout with dark mode
-│   ├── page.tsx            # Main application page
-│   └── globals.css         # Global styles
-│
-├── components/
-│   ├── ui/                 # shadcn UI components
-│   │   ├── badge.tsx       # Badge component
-│   │   ├── button.tsx      # Button component
-│   │   ├── card.tsx        # Card component
-│   │   └── ...
-│   ├── EventCard.tsx       # Individual event card component
-│   ├── EventFilters.tsx    # Filter controls
-│   ├── ComboFinder.tsx     # Combo day finder
-│   ├── MySchedule.tsx      # Personal schedule view
-│   ├── Statistics.tsx      # Stats and insights
-│   └── Tabs.tsx            # Tab navigation
-│
-├── lib/
-│   ├── types.ts            # TypeScript type definitions
-│   ├── utils.ts            # Utility functions
-│   ├── store.ts            # Zustand state management
-│   └── data.ts             # Data loading utilities
-│
-├── public/
-│   └── data/
-│       ├── performances.csv # Main events data
-│       └── exhibition.csv   # Exhibition data
-│
-└── package.json            # Dependencies and scripts
-```
-
-## 🎮 How to Use
-
-### 1. Browse Events
-- Start from the **Browse** tab to see all available events
-- Events are displayed as cards with all essential information
-
-### 2. Filter Events
-Use the left sidebar to narrow down:
-- **Search Bar**: Quick search by event name or artist
-- **Category Filter**: Dance, Theatre, or Music
-- **Venue Filter**: Choose specific venues
-- **Date Filter**: Select specific dates
-
-### 3. Add to Your Schedule
-- Click the **heart icon** on any event card to add it to your schedule
-- The selected count updates in the header
-
-### 4. Find Combo Days
-- Visit the **Combos** tab to see intelligent combo suggestions
-- System automatically finds which events can be attended on the same day
-- Travel time between venues is calculated
-- Click hearts to add suggested events to your schedule
-
-### 5. View Your Schedule
-- Go to the **Schedule** tab to see all your selected events
-- Events are grouped by date and sorted by time
-- Click the trash icon to remove an event
-- **Export** button to download your schedule as CSV
-
-### 6. Analyze Statistics
-- Visit **Stats** tab for detailed insights:
-  - Total events and selected count
-  - Events distribution by category and venue
-  - Busiest dates
-  - Number of unique artists
-
-## 🔄 How Combo Days Work
-
-The Combo Finder uses intelligent algorithms to find events you can realistically attend in one day:
-
-1. **Same Date Filter**: Only considers events on the same date
-2. **Time Calculation**: Checks if events don't overlap
-3. **Travel Time**: Estimates time needed to travel between venues:
-   - Same venue: 0 minutes
-   - Different venues: 15-25 minutes
-4. **Performance Duration**: Assumes each performance is ~60 minutes
-
-**Example Combo:**
-```
-Event 1: 7:15 PM at Gujarat University
-Event 2: 8:30 PM at ATIRA (15 min travel)
-✅ Combo is POSSIBLE (enough time between events)
-```
-
-## 📊 Data Format
-
-### Performances CSV
-```csv
-Event Name,Artist/Group,Category,Sub-Category,Date,Time,Main Venue,Specific Venue
-The Blue Hour,Ritu Changlani,Dance,Contemporary,14-Nov-2025,7:15 PM,Gujarat University,Amphi - GU
-```
-
-### Exhibition CSV
-```csv
-Category,Main Venue,Start Time,Featured Artists
-Visual Arts,Gujarat University,5:00 PM,"Artist1, Artist2, ..."
-```
-
-## 🛠️ Tech Stack
-
-- **Framework**: Next.js 16
-- **Language**: TypeScript
-- **React Version**: 19
-- **Styling**: Tailwind CSS 4
-- **UI Components**: Custom shadcn implementation
-- **State Management**: Zustand
-- **Date Handling**: date-fns
-- **Icons**: Lucide React
-
-## 🎨 Customization
-
-### Modify Travel Times
-Edit `lib/utils.ts` - `calculateTravelTime` function:
-```typescript
-const travelTimes: Record<string, Record<string, number>> = {
-  "Venue A": {
-    "Venue B": 20, // Custom travel time in minutes
-  },
-};
-```
-
-### Change Color Scheme
-Edit `components/ui/badge.tsx` to modify category colors:
-```typescript
-dance: "border-transparent bg-purple-500/10 text-purple-700",
-theatre: "border-transparent bg-orange-500/10 text-orange-700",
-music: "border-transparent bg-blue-500/10 text-blue-700",
-```
-
-### Adjust Performance Duration
-Edit `lib/utils.ts` - `canAttendBoth` function:
-```typescript
-const performanceDuration = 60; // Change this value (in minutes)
-```
-
-## 📱 Responsive Breakpoints
-
-- **Mobile**: < 640px (single column, collapsed sidebar)
-- **Tablet**: 640px - 1024px (2 columns)
-- **Desktop**: > 1024px (sidebar + content grid)
-
-## 🚀 Performance Optimizations
-
-- Memoized computations for filtering and combos
-- Efficient CSV parsing
-- Client-side state management with Zustand
-- No unnecessary re-renders with React hooks
-
-## 🐛 Troubleshooting
-
-### Events Not Loading
-- Check if CSV files exist in `public/data/`
-- Verify CSV format matches the expected structure
-- Check browser console for error messages
-
-### Combo Days Not Showing
-- Ensure events have proper dates and times
-- Check travel time calculations between venues
-- Verify performance duration assumption
-
-### Styling Issues
-- Clear browser cache
-- Rebuild the project: `npm run build`
-- Check Tailwind CSS is properly configured
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Built with ❤️ for cultural enthusiasts
-- Inspired by modern UX/UI principles
-- Designed for meaningful cultural experiences
-
-## 📧 Contact & Support
-
-For issues, feature requests, or suggestions, please create an issue or contact the development team.
+![Mauj Planner](https://img.shields.io/badge/Status-Active-success)
+![Next.js](https://img.shields.io/badge/Next.js-16.0-black)
+![Convex](https://img.shields.io/badge/Convex-Backend-orange)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 
 ---
 
-**Made with 🎭 for the Mauj Festival**
+## ✨ Features
+
+### 🎯 Smart Event Discovery
+- **Timeline View**: Navigate events chronologically with beautiful date-based organization
+- **Advanced Filters**: Filter by category (Music, Dance, Theatre), venue, and date
+- **Smart Search**: Find events by title or artist name
+- **Event Details**: Rich modal views with complete event information
+
+### 📅 Schedule Management
+- **Personal Schedule**: Build your custom festival itinerary
+- **One-Click Adding**: Heart icon to instantly add/remove events
+- **Real-time Sync**: Powered by Convex for instant updates
+- **Session-based**: Works without authentication (anonymous users)
+
+### 🎨 Beautiful Design
+- Dark mode with glassmorphism effects
+- Smooth animations and transitions
+- Mobile-first responsive layout
+- Category-based color coding
+
+---
+
+## 🚀 Quick Start
+
+See [SETUP.md](./SETUP.md) for detailed setup instructions.
+
+### Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Start Convex backend
+npx convex dev
+
+# In another terminal, start Next.js
+npm run dev
+
+# Seed database at http://localhost:3000/admin/seed
+```
+
+---
+
+## 🏗️ Architecture
+
+### Tech Stack
+- **Frontend**: Next.js 16, React 19, TypeScript
+- **Backend**: Convex (real-time database & functions)
+- **Styling**: TailwindCSS 4, CVA, clsx
+- **State**: Convex React hooks
+- **Icons**: Lucide React
+
+### Data Model
+
+```typescript
+// Events - Unique events with multiple dates
+events {
+  title, artist, category, subCategory
+  venue, specificVenue
+  dates: string[]  // Multiple occurrence dates
+  timeSlot: "19:15" | "21:00"
+  duration: number
+}
+
+// EventInstances - Flattened for scheduling
+eventInstances {
+  eventId, date, dateObj
+  startTime, endTime
+  venue, specificVenue
+  title, artist, category, subCategory
+}
+
+// Schedules - User itineraries
+schedules {
+  userId | sessionId
+  selectedEventInstances: Id[]
+  createdAt, updatedAt
+}
+```
+
+---
+
+## 📂 Project Structure
+
+```
+mauj-planner/
+├── app/                    # Next.js app directory
+│   ├── page.tsx           # Main app (Convex-powered)
+│   ├── admin/seed/        # Data seeding interface
+│   └── layout.tsx         # Root layout + Convex provider
+├── components/            # React components
+│   ├── Timeline.tsx       # Timeline view
+│   ├── EventModal.tsx     # Event details modal
+│   ├── EventCard.tsx      # Event card (legacy)
+│   └── ui/               # Shadcn-style UI components
+├── convex/               # Convex backend
+│   ├── schema.ts         # Database schema
+│   ├── events.ts         # Event CRUD operations
+│   ├── eventInstances.ts # Instance queries
+│   ├── schedules.ts      # Schedule management
+│   └── seed.ts           # Data import functions
+├── lib/                  # Utilities
+│   ├── convex-client-provider.tsx
+│   ├── use-session.ts    # Session hook
+│   └── types.ts          # TypeScript types
+└── public/data/          # CSV data files
+    └── performances.csv
+```
+
+---
+
+## 🎯 Milestones
+
+### ✅ Milestone 1 - Data + Foundations
+- [x] Convex schema & functions
+- [x] Data seeding from CSV
+- [x] Real-time queries
+- [x] Event filtering
+
+### ✅ Milestone 2 - Timeline & Scheduling
+- [x] Timeline component with date navigation
+- [x] Event details modal
+- [x] Schedule add/remove
+- [x] Personal schedule view
+- [x] Mobile responsive design
+
+### 🚧 Milestone 3 - Intelligent Planner (Upcoming)
+- [ ] Preference-based planning wizard
+- [ ] Interval scheduling algorithm
+- [ ] Multi-category optimization
+- [ ] Venue-transition constraints
+- [ ] Alternative plan suggestions
+
+### 🔮 Milestone 4 - Polish & Sharing
+- [ ] Shareable schedule links
+- [ ] Export to image/PDF
+- [ ] PWA support
+- [ ] User authentication (Clerk)
+- [ ] Enhanced animations
+
+---
+
+## 🎨 Design Philosophy
+
+The Mauj Planner embraces a **dark, sophisticated aesthetic** inspired by:
+- Festival night vibes with ambient gradients
+- Glass morphism for depth and hierarchy
+- Category-coded colors for quick visual parsing
+- Smooth micro-interactions for delight
+
+---
+
+## 🛠️ Development
+
+### Prerequisites
+- Node.js 18+
+- npm/pnpm
+- Convex account (free tier works great)
+
+### Local Development
+
+```bash
+# Terminal 1: Convex backend
+npx convex dev
+
+# Terminal 2: Next.js frontend
+npm run dev
+
+# Terminal 3: TypeScript checking (optional)
+npm run build
+```
+
+### Environment Variables
+
+```bash
+# .env.local
+NEXT_PUBLIC_CONVEX_URL=https://your-deployment.convex.cloud
+```
+
+---
+
+## 📊 Data Import
+
+The app supports CSV import for event data:
+
+1. Place CSV in `public/data/performances.csv`
+2. Visit `/admin/seed`
+3. Click "Seed Database"
+4. Events are deduplicated and instances created
+
+**CSV Format:**
+```csv
+Event_ID,Category,Sub_Category,Event_Name,Venue,City,Date,Time,Duration_Minutes,Description
+```
+
+---
+
+## 🤝 Contributing
+
+This is a festival-specific project, but feel free to fork and adapt for your own events!
+
+### Key Areas for Contribution
+- Performance optimizations
+- Additional filter types
+- Export formats
+- Mobile app wrapper
+- Analytics dashboard
+
+---
+
+## 📝 License
+
+MIT License - feel free to use this for your own cultural festivals!
+
+---
+
+## 🙏 Acknowledgments
+
+- Built with ❤️ for the Abhivyakti Cultural Festival
+- Powered by [Convex](https://convex.dev) for real-time magic
+- UI components inspired by [shadcn/ui](https://ui.shadcn.com)
+
+---
+
+## 📧 Contact
+
+For questions about the Mauj Planner:
+- Open an issue on GitHub
+- Check [Planning.md](./Plannning.md) for architecture details
+- Review [Tasks.md](./Tasks.md) for current progress
+
+---
+
+**🎭 Plan smart. Experience more. Mauj Planner.**

@@ -6,16 +6,11 @@ import { api } from '@/convex/_generated/api';
 import { Id } from '@/convex/_generated/dataModel';
 import { Timeline } from '@/components/Timeline';
 import { EventModal } from '@/components/EventModal';
-import { PlannerModal } from '@/components/PlannerModal';
-import { ShareScheduleModal } from '@/components/ShareScheduleModal';
-import { ExportScheduleButton } from '@/components/ExportScheduleButton';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/Tabs';
 import { useSession } from '@/lib/use-session';
-import { useUser, SignInButton, UserButton } from '@clerk/nextjs';
-import Link from 'next/link';
 import {
   Sparkles,
   Heart,
@@ -26,9 +21,6 @@ import {
   Music,
   SlidersHorizontal,
   Search,
-  Wand2,
-  Share2,
-  Calendar,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -49,7 +41,6 @@ type EventInstance = {
 };
 
 export default function HomePage() {
-  const { user, isSignedIn } = useUser();
   const { sessionId } = useSession();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -58,8 +49,6 @@ export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedEvent, setSelectedEvent] = useState<EventInstance | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [showPlannerModal, setShowPlannerModal] = useState(false);
-  const [showShareModal, setShowShareModal] = useState(false);
 
   // Fetch data from Convex
   const allInstances = useQuery(api.eventInstances.list) || [];
@@ -191,24 +180,6 @@ export default function HomePage() {
           </div>
 
           <div className="flex items-center gap-3">
-            {isSignedIn && (
-              <>
-                <Link href="/plans">
-                  <Button className="hidden gap-2 rounded-xl border border-blue-300/30 bg-gradient-to-r from-blue-500/20 to-purple-600/20 px-4 py-2 text-sm font-semibold text-blue-100 transition hover:from-blue-500/30 hover:to-purple-600/30 md:inline-flex">
-                    <Calendar className="h-4 w-4" />
-                    My Plans
-                  </Button>
-                </Link>
-                <Button
-                  onClick={() => setShowPlannerModal(true)}
-                  className="hidden gap-2 rounded-xl border border-amber-300/30 bg-gradient-to-r from-amber-500/20 to-amber-600/20 px-4 py-2 text-sm font-semibold text-amber-100 transition hover:from-amber-500/30 hover:to-amber-600/30 md:inline-flex"
-                >
-                  <Wand2 className="h-4 w-4" />
-                  AI Planner
-                </Button>
-              </>
-            )}
-            
             <div className="hidden items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-200 sm:flex">
               <Heart className="h-4 w-4 text-amber-300" />
               <span className="font-semibold text-amber-100">
@@ -216,16 +187,6 @@ export default function HomePage() {
               </span>
               <span className="text-slate-400">saved</span>
             </div>
-
-            {isSignedIn ? (
-              <UserButton afterSignOutUrl="/" />
-            ) : (
-              <SignInButton mode="modal">
-                <Button className="rounded-xl border border-amber-300/40 bg-amber-500/20 px-4 py-2 text-sm font-semibold text-amber-100 transition hover:bg-amber-500/30">
-                  Sign In
-                </Button>
-              </SignInButton>
-            )}
 
             <button
               onClick={() => setSidebarOpen(!sidebarOpen)}
@@ -435,42 +396,19 @@ export default function HomePage() {
                 <Timeline
                   events={filteredInstances as any}
                   selectedEventIds={selectedEventIds}
-                  onToggleEvent={handleToggleEvent}
-                  onEventClick={handleEventClick}
+                  onToggleEvent={(eventId) => handleToggleEvent(eventId)}
+                  onEventClick={(event) => handleEventClick(event as any)}
                 />
               </TabsContent>
 
               <TabsContent value="schedule">
                 {scheduleData?.events && scheduleData.events.length > 0 ? (
-                  <div className="space-y-6">
-                    {/* Action Buttons */}
-                    {isSignedIn && scheduleData?.schedule && (
-                      <Card className="border-white/10 bg-white/5 p-4">
-                        <div className="flex flex-wrap gap-3 justify-end">
-                          <ExportScheduleButton
-                            scheduleElementId="my-schedule-timeline"
-                            filename="my-festival-schedule"
-                          />
-                          <Button
-                            onClick={() => setShowShareModal(true)}
-                            className="gap-2 rounded-xl border border-blue-300/40 bg-gradient-to-r from-blue-500/20 to-purple-600/20 px-4 py-2 text-sm font-semibold text-blue-100 transition hover:from-blue-500/30 hover:to-purple-600/30"
-                          >
-                            <Share2 className="h-4 w-4" />
-                            Share Schedule
-                          </Button>
-                        </div>
-                      </Card>
-                    )}
-
-                    <div id="my-schedule-timeline">
-                      <Timeline
-                        events={scheduleData.events as any}
-                        selectedEventIds={selectedEventIds}
-                        onToggleEvent={handleToggleEvent}
-                        onEventClick={handleEventClick}
-                      />
-                    </div>
-                  </div>
+                  <Timeline
+                    events={scheduleData.events as any}
+                    selectedEventIds={selectedEventIds}
+                    onToggleEvent={handleToggleEvent}
+                    onEventClick={handleEventClick}
+                  />
                 ) : (
                   <Card className="border-white/10 bg-white/5 p-12 text-center">
                     <Heart className="mx-auto mb-4 h-12 w-12 text-slate-400" />
@@ -510,26 +448,6 @@ export default function HomePage() {
           </div>
         </div>
       </footer>
-
-      {/* Planner Modal */}
-      <PlannerModal
-        isOpen={showPlannerModal}
-        onClose={() => setShowPlannerModal(false)}
-        onPlanGenerated={() => {
-          // Refresh schedule data
-          setShowPlannerModal(false);
-        }}
-      />
-
-      {/* Share Modal */}
-      {isSignedIn && scheduleData?.schedule && (
-        <ShareScheduleModal
-          isOpen={showShareModal}
-          onClose={() => setShowShareModal(false)}
-          scheduleId={scheduleData.schedule._id}
-          scheduleName={scheduleData.schedule.name}
-        />
-      )}
     </div>
   );
 }

@@ -1,0 +1,11 @@
+{
+  "node": {
+    "version": "18"
+  },
+  "authProviders": [
+    {
+      "domain": "https://trusty-adder-37.clerk.accounts.dev",
+      "applicationID": "convex"
+    }
+  ]
+}
